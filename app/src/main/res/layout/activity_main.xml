@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:text="My Nanodegree Apps!" />
+
+    <Button
+        android:id="@+id/spotify"
+        style="@style/mainScreenButton"
+        android:text="@string/spotify"
+        android:tag="@string/spotify" />
+
+    <Button
+        android:id="@+id/scores"
+        style="@style/mainScreenButton"
+        android:text="@string/scores"
+        android:tag="@string/scores" />
+
+    <Button
+        android:id="@+id/library"
+        style="@style/mainScreenButton"
+        android:text="@string/library"
+        android:tag="@string/library" />
+
+    <Button
+        android:id="@+id/bigger"
+        style="@style/mainScreenButton"
+        android:text="@string/bigger"
+        android:tag="@string/bigger" />
+
+    <Button
+        android:id="@+id/xyz"
+        style="@style/mainScreenButton"
+        android:text="@string/xyz"
+        android:tag="@string/xyz" />
+
+    <Button
+        android:id="@+id/capstone"
+        style="@style/capstone"
+        android:text="@string/capstone"
+        android:tag="@string/capstone" />
+
+</LinearLayout>
